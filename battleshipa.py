@@ -34,7 +34,7 @@ for turn in range(total_turns):
         break
     else:
         if (guess_row < 0 or guess_row > 4) or (guess_col < 0 or guess_col > 4):
-            print "Oops, that's not even in the ocean."
+            print "guess again! thats not even on the grid/ocean!"
         elif(board[guess_row][guess_col] == "X"):
             print "You guessed that one already."
         else:
