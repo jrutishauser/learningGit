@@ -20,7 +20,7 @@ def random_col(board):
 
 ship_row = random_row(board)
 ship_col = random_col(board)
-total_turns = int(raw_input("How many guesses can you find my battleship in?"))
+total_turns = int(raw_input("How many guesses will it take you to find my battleship?"))
 
 for turn in range(total_turns):
 
@@ -30,7 +30,7 @@ for turn in range(total_turns):
     guess_col = guess_col - 1
 
     if guess_row == ship_row and guess_col == ship_col:
-        print "Congratulations! You sunk my battleship!"
+        print "Congratulations! You sunk my battleship!!!!"
         break
     else:
         if (guess_row < 0 or guess_row > 4) or (guess_col < 0 or guess_col > 4):
