@@ -5,4 +5,4 @@ def anti_vowel(text):
         text = text.replace(vowels[i], "")
     print text
     
-anti_vowel('Hey look words!')
+anti_vowel('Remove all the vowels in this statement')
